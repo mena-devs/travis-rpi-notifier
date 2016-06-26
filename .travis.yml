@@ -1,0 +1,9 @@
+language: python
+install:
+  - pip install tox
+script:
+  - tox
+env:
+  - TOXENV=linters
+  - TOXENV=py27
+  - TOXENV=py34

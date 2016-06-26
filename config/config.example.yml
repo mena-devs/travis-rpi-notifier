@@ -1,0 +1,6 @@
+# Travis rPI Notifier
+# Replace with your own values
+
+secure:
+    # Replace <token> with the Travis API token
+    travis_api_token: "<token>"
