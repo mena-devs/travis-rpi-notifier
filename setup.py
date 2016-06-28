@@ -12,6 +12,7 @@ setup(
     install_requires=[
         'PyYAML',
         'travispy'
+        'RPi.GPIO'
     ],
     zip_safe=False,
 )
