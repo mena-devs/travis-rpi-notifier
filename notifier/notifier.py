@@ -2,8 +2,6 @@
 # 
 # notifier
 # 
-# @version: alpha-0.0.1
-# @author: Bassem Dghaidi
 
 import yaml
 

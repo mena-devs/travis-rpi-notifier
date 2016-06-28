@@ -11,7 +11,8 @@ setup(
     packages=['notifier'],
     install_requires=[
         'PyYAML',
-        'travispy'
+        'travispy',
+        'RPi.GPIO'
     ],
     zip_safe=False,
 )
