@@ -6,7 +6,8 @@ rPI project to retrieve the build status for a given project and displays the bu
 
 ## Electronic Build
 
-
+![Electrical Diagram](https://raw.githubusercontent.com/mena-devs/travis-rpi-notifier/repo-screenshots/electronics/images/tn_rpi2B_sketch_schem.png)
+![Breadboard Diagram](https://raw.githubusercontent.com/mena-devs/travis-rpi-notifier/repo-screenshots/electronics/images/tn_rpi2B_sketch_bb.png)
 
 ### Screenshots
 
