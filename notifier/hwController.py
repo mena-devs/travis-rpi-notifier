@@ -5,8 +5,9 @@
 # instructions
 #
 
-# import RPi.GPIO as GPIO
-from notifier import Leds as LED
+import time
+import RPi.GPIO as GPIO
+from notifier.hwLeds import hwLeds as LED
 
 class hwController:
 
@@ -49,4 +50,5 @@ class hwController:
 if __name__ == "__main__":
     hw_controller_inst = hwController()
     hw_controller_inst.blue_on()
-
+    time.sleep(1)
+    hw_controller_inst.blue_off()

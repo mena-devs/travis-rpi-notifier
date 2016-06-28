@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # 
-# notifier
+# tr_notifier
 # 
 
 import yaml
