@@ -6,7 +6,7 @@
 #
 
 import RPi.GPIO as GPIO
-from notifier import hw_leds as LED
+from notifier.hw_leds import Leds as LED
 
 class hwController:
 
@@ -35,10 +35,16 @@ class hwController:
         """
         Turn on the Blue LED
         """
-        if GPIO.input(13):
-            return
-        else:
+        if not GPIO.input(13):
             GPIO.output(13, GPIO.HIGH)
+
+    def blue_off(self):
+        """
+        Turn off the Blue LED
+        """
+        if GPIO.input(13):
+            GPIO.output(13, GPIO.LOW)
+
 
 if __name__ == "__main__":
     hw_controller_inst = hwController()
