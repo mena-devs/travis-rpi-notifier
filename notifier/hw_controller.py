@@ -1,4 +1,4 @@
-#
+#!/usr/bin/python3
 # hwController: Hardware Controller
 # a layer of abstraction on top of the gpio
 # library that encapsulates all the hardware

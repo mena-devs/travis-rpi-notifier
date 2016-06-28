@@ -1,4 +1,3 @@
-#
 # hw_leds : Hardware LEDs
 # Enum class for mapping the LED colors to the
 # connected pins on the rPI Board
