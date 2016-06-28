@@ -6,7 +6,7 @@
 from enum import Enum, unique
 
 @unique
-class Leds(Enum):
+class hwLeds(Enum):
     """
     Enumeration of the default pins used per LED color
     """
