@@ -1,12 +1,12 @@
-#!/usr/bin/python3
+#!/usr/bin/python
 # hwController: Hardware Controller
 # a layer of abstraction on top of the gpio
 # library that encapsulates all the hardware
 # instructions
 #
 
-import RPi.GPIO as GPIO
-from notifier.hw_leds import Leds as LED
+# import RPi.GPIO as GPIO
+from notifier import Leds as LED
 
 class hwController:
 
