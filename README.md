@@ -2,7 +2,9 @@
 
 ## Synopsis
 
-rPI project to retrieve the build status for a given project and displays the build status on an array of LEDs.
+rPI project to retrieve the build status for a given project and displays the build status on an array of LEDs. The board is composed of 3 LEDs colored Red, Green and Blue. 
+
+The monitored repository is configured in `config.yml` along with the GPIO numbers connected to each LED. The LEDs will blink / go on or off depending on the status of the monitored travis build for a given repository.
 
 ## Electronic Build
 
