@@ -23,4 +23,8 @@ Ubuntu Mate setup:
 
 http://ubuntu-mate.org/raspberry-pi/
 
+travispy Docs:
+
+http://travispy.readthedocs.io/en/latest/entities/#travispy.entities.Repo
+
 ## Changelog
