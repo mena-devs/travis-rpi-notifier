@@ -8,7 +8,7 @@ The monitored repository is configured in `config.yml` along with the GPIO numbe
 
 ## Electronic Build
 
-![Working GIF](http://giftrending.com/public/upload/gifs/14673163531467316222.gif)
+![Build GIF](http://giftrending.com/public/upload/gifs/14673163531467316222.gif)
 
 ![Electrical Diagram](https://raw.githubusercontent.com/mena-devs/travis-rpi-notifier/repo-screenshots/electronics/images/tn_rpi2B_sketch_schem.png)
 ![Breadboard Diagram](https://raw.githubusercontent.com/mena-devs/travis-rpi-notifier/repo-screenshots/electronics/images/tn_rpi2B_sketch_bb.png)
